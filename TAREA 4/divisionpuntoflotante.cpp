@@ -105,9 +105,9 @@ int main() {
     float resultadoEmulado = dividirFlotantes(num1, num2);
     float resultadoNormal = num1 / num2;
 
-    cout << "\nResultado usando algoritmo (emulao): ";
+    cout << "\nAlgoritmo(emulado): ";
     mostrarBits(resultadoEmulado);
-    cout << "En C++ (/ directo): ";
+    cout << "En C++ (directo): ";
     mostrarBits(resultadoNormal);
 
     return 0;
